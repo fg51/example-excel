@@ -1,0 +1,14 @@
+[project]
+name = "pyprj"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pywin32>=308",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pyinstaller>=6.11.1",
+]
